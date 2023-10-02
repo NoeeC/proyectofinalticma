@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+}
+
+.imagen_fondo{
+    background-image: url(./images/matthew-henry-VviFtDJakYk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+width: 100%;
+background-color: #9DA2A6;
+padding-top: 6px;
+padding-bottom: 6px;
+position: fixed;
+}
+
+nav ul{
+    text-align: center;
+    list-style: none; 
+}
+
+nav ul li{
+    display: inline-block;
+
+}
+
+a{
+    color: #4C5861;
+    text-decoration: none;
+    width: 200px;
+    display: block;
+
+}
+
+a:hover{
+    background-color: #D0E7F7;
+    color: #000000;
+
+}
+
+.titulo_banner{
+    background-color: #D0E7F7;
+    width:300px;
+    margin-left: 40%;
+    padding-top: 50px;
+    padding-left: 30px;
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold; 
+}
+
+.subtitulo_banner{
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    padding-bottom: 35px;
+    text-decoration: none;
+}
+
+.foto_banner{
+    width: 250px;
+    margin-left: 41.5%;
+    margin-bottom: 5%;
+}
+
+.presentacion{
+width: 100%;
+background-color: white;
+color: #4C5861;
+text-align: center;
+padding: 80px;
+}
+
+.formacion h2{
+    background-color: #D3D9DE;
+    text-align: center;
+    padding: 30px;
+}
+
+
+.contenedor_formacion{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 50px 50px 50px;
+    padding: 50px 50px 50px 50px;
+    background-color:#D3D9DE;
+}
+
+.año{
+    color: #b4cbdc;
+    font-weight: bold;
+}
+
+.experiencia h2{
+    background-color: #D3D9DE;
+    text-align: center;
+    padding: 30px
+}
+
+.contenedor_experiencia{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 50px 50px 50px;
+    padding: 50px 50px 50px 50px;
+    background-color:#D3D9DE;
+}
+
+.menciones {
+    border:  #b4cbdc solid;
+    background-color:  #b4cbdca5;
+    color: #000000 solid;
+    text-align: center;
+    padding: 30px;
+}
+
+.aptitudes {
+    background-color: #D3D9DE;
+    text-align: center;
+    padding: 30px
+}
+
+.aptitudes_lista {
+    text-align: center;
+    background-color:  #D3D9DE;
+    margin: 10px;
+}
+
+.icono_contacto{   
+    width: 40px ;
+    float: left;
+    margin-left: 30px;
+}
+
+.contacto h1{
+    text-align: center;
+    background-color:  #d3d9ded0;
+    padding: 20px;
+}
+
+.contenedor_contacto {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  #d3d9dec8;
+}
+
+#mensaje {
+    width: 300px;
+    height: 250px;
+}
+
+#submit {
+   padding: 5px;
+   margin: 10px;
+   background-color: #D0E7F7;
+   border:#b4cbdc solid;
+   border-radius: 12%;
+   color: #2f536f;
+}
+
+footer{
+    width: 100%;
+    background-color: #9DA2A6;
+}
+
+footer ul{
+    text-align: center;
+    list-style: none;
+}
+
+footer ul li{
+    display: inline-block;
+}
+
+.icono{
+    width: 80px;
+    padding: 20px;
+}
+
+.animado {
+    opacity: 0;
+    transition: all 0.5s;
+}
